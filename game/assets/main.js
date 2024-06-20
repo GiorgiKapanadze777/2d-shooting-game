@@ -106,7 +106,7 @@ function update() {
         });
     }
 
-    if (score >= 5 && !bossActive) {
+    if (score >= 15 && !bossActive) {
         bossActive = true;
         bossShootInterval = setInterval(shootBossBullet, 1000); // Boss shoots every second
     }
